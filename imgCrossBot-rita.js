@@ -23,11 +23,11 @@ var markov= rita.RiMarkov(2);
 markov.loadText(biblee);
 markov.loadText(darwin);
 
-var sentencesB= markov.generateSentences(1);
+var sentencesB=markov.generateSentences(1);
 // var sentencesD = markovD.generateSentences(1);
 var lines = [sentencesB];
 
-console.log(lines);
+// console.log(lines);
 
 var T = new Twit(config);
 
