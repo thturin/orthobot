@@ -1,0 +1,81 @@
+{
+  "created_at": "Wed May 11 16:01:33 +0000 2016",
+  "id": 730427633595486200,
+  "id_str": "730427633595486208",
+  "text": "@tatiturin hello helo leoeoeo poop",
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 718934855870976000,
+  "in_reply_to_user_id_str": "718934855870976001",
+  "in_reply_to_screen_name": "tatiturin", //THIS IS IMPORTANT
+  "user": {
+    "id": 725388460429811700,
+    "id_str": "725388460429811712",
+    "name": "Jane Doe",
+    "screen_name": "testJaneDoe", //YOUR USERNAME 
+    "location": null,
+    "url": null,
+    "description": null,
+    "protected": false,
+    "verified": false,
+    "followers_count": 0,
+    "friends_count": 0,
+    "listed_count": 0,
+    "favourites_count": 0,
+    "statuses_count": 3,
+    "created_at": "Wed Apr 27 18:17:41 +0000 2016",
+    "utc_offset": -25200,
+    "time_zone": "Pacific Time (US & Canada)",
+    "geo_enabled": false,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "2B7BB9",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png",
+    "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png",
+    "default_profile": true,
+    "default_profile_image": true,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [],
+    "urls": [],
+    "user_mentions": [
+      {
+        "screen_name": "tatiturin",
+        "name": "ortho",
+        "id": 718934855870976000,
+        "id_str": "718934855870976001",
+        "indices": [
+          0,
+          10
+        ]
+      }
+    ],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "nl",
+  "timestamp_ms": "1462982493195"
+}

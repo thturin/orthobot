@@ -1,0 +1,1 @@
+worker: node imgCrossBot-rita.js
