@@ -12,7 +12,7 @@ var fstxt=require('fs');
 var bible=fstxt.readFileSync('bible2.txt', "utf8").toString();
 var darwin=fstxt.readFileSync('darwin.txt',"utf8").toString();
 
-// var biblee=bible.replace(/[0-9]/g, '');
+var biblee=bible.replace(/[0-9]/g, '');
 // var newDarwin = bible.replace(/(\r\n|\n|\r),/gm," ");
 // var newBible = bible.replace(/(\r\n|\n|\r),/gm," "); 
 // //does not delete spaces in string
@@ -20,14 +20,14 @@ var darwin=fstxt.readFileSync('darwin.txt',"utf8").toString();
 var markov= rita.RiMarkov(2);
 //var markov
 
-markov.loadText(bible);
+markov.loadText(biblee);
 markov.loadText(darwin);
 
 var sentencesB= markov.generateSentences(1);
 // var sentencesD = markovD.generateSentences(1);
 var lines = [sentencesB];
 
-// console.log(lines);
+console.log(lines);
 
 var T = new Twit(config);
 
