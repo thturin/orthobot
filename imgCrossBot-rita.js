@@ -133,7 +133,7 @@ function tweetIt(){
 				    var id = data.media_id_string;
                                 //params
 				 var tweet = {
-					   status: lines,
+					   status: Math.random(Math.random()*(lines.length-1)),
 					
 					   media_ids: [id] //you can have more than one image ID linked with a tweet 
 				    }
