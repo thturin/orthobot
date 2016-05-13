@@ -17,13 +17,12 @@ var biblee=bible.replace(/[0-9]/g, '');
 // var newBible = bible.replace(/(\r\n|\n|\r),/gm," "); 
 // //does not delete spaces in string
 
-var markov= rita.RiMarkov(2);
-//var markov
+var markov= new rita.RiMarkov(2);
 
 markov.loadText(biblee);
 markov.loadText(darwin);
 
-var sentencesB=markov.generateSentences(1);
+var sentencesB=markov.generateSentences(2);
 // var sentencesD = markovD.generateSentences(1);
 var lines = [sentencesB];
 
@@ -133,7 +132,7 @@ function tweetIt(){
 				    var id = data.media_id_string;
                                 //params
 				 var tweet = {
-					   status: Math.random(Math.random()*(lines.length-1)),
+					   status: lines,
 					
 					   media_ids: [id] //you can have more than one image ID linked with a tweet 
 				    }
