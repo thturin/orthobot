@@ -22,7 +22,7 @@ var markov= new rita.RiMarkov(2);
 markov.loadText(biblee);
 markov.loadText(darwin);
 
-var sentencesB=markov.generateSentences(2);
+var sentencesB=markov.generateSentences(1);
 
 var lines = [sentencesB];
 
