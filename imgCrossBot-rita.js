@@ -23,7 +23,7 @@ markov.loadText(biblee);
 markov.loadText(darwin);
 
 var sentencesB=markov.generateSentences(2);
-// var sentencesD = markovD.generateSentences(1);
+
 var lines = [sentencesB];
 
 // console.log(lines);
